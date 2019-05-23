@@ -1,0 +1,130 @@
+body
+{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    position: fixed;
+    background: #3B3F40;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 0;
+    min-height: 45px;
+    z-index: 90;
+    max-height: 45px;
+    border-bottom: 1px solid #2EF4F4;
+}
+.thowheader
+{
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 45px;
+}
+.wrap
+{
+    position: relative;
+    width: 100%;
+    min-width: 90%;
+}
+
+ul.tabs
+{
+    width: 100%;
+    list-style: none;
+    background: #363636;
+    display: flex;
+}
+
+ul.tabs li
+{
+    margin-left: 0px;
+    width: 18%;
+    /*padding-left: 50px;*/
+    overflow: hidden;
+}
+
+
+ul.tabs li a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+
+    display: block;
+    padding: 20px 10px;
+    padding-right: 10px;
+}
+
+ul.tabs li a .tab-text
+{
+    margin-left: 0px;
+}
+.tyc
+{
+    margin: 12px 12px;
+}
+.tyc h1
+{
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 25px;
+}
+.tyc p{
+    text-align: justify;
+    font-size: 20px;
+}
+@media screen and (max-width: 450px)
+{
+    ul.tabs li
+    {
+        margin-left: 0px;
+    }
+    ul.tabs
+    {
+        width: 100%;
+        list-style: none;
+        background: #363636;
+        display: flex;
+        height: 47px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 330px)
+{
+    ul.tabs li
+    {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    body
+    {
+        font-family: arial;
+        margin: 0;
+        padding: 0;
+        min-width: 100%;
+    }
+
+    ul.tabs li a
+    {
+        color: #fff;
+        text-decoration: none;
+        font-size: 7px;
+        text-align: center;
+
+        display: block;
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 8px;
+        height: 7px;
+    }
+
+}

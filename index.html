@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Inicio</title>
+
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js'></script>
+    <script src="js/main.js" language="javascript" type="text/javascript"></script>
+    <script src="js/index.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/precarga.css">
+    <link rel="stylesheet" type="text/css" href="css/estilod_menu.css">
+    <link rel="stylesheet" href="css/estilodindexart.css">
+
+</head>
+<body>
+        <header>
+                <div class="content-all">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="icon"></label>
+                    <br><br>
+                    <nav class="menu">
+                        <ul>
+                            <a href="index.html"><li>Inicio</li></a>
+                            <a href="configuracion.html"><li>Configuración</li></a>
+                            <a href="calculadora.html"><li>Calculadora</li></a>
+                            <a href="Teoria.html"><li>Teoría</li></a>
+                            <a href="Terminosycondiciones.html"><li>Términos y condiciones</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        
+                <section class="thowheader">
+        
+                    <div id="Ccarga">
+                        <div class="carga">
+                            <img class="imagen" src="imgpcarga/calculadora.png">
+                        </div>
+                    </div>
+                </section>
+
+        <section class="section">
+            <div class="wrap">
+                <ul class="tabs">
+                    <li><a href="#tab1"><span class="tab-text">Bienvenida</span></a></li>
+                    <li><a href="#tab2"><span class="tab-text">Manual</span></a></li>
+                </ul>
+            </div>
+
+            <div class="secciones">
+
+                    <form class="btn" action="" method="POST">
+        
+                    <div class="alinearcp">
+        
+                        <article id="tab1">
+                                <div class="segundoheader">
+                                        <h1 class="titulo">Bienvenid@s</h1>
+                                        <img class="imglogo" src="imgpcarga/logo.png" width="100px" onClick="window.location='calculadora.html'">
+                                    </div>
+                                    <section class="articulos">
+                                        
+                                            <div>
+                                                <p>Esta herramienta te ayudara facilitarte el resolver las sumas y 
+                                                división que se presentan, olvídate de confundirte y del estrés, 
+                                                el programa te pide los datos de forma ordenada 
+                                                para que solo tardes un segundo en cambiar de pestaña.</p>
+                                            </div>
+                                        
+                                    </section>
+                        </article>
+                    </div>
+        
+                    <div class="alinarcosp">
+        
+                        <article id="tab2">
+                            <section class="articulos">
+                                <div>
+                                    <h1>Calculadora</h1>
+                                    <div>
+                                        <p>El menú de la calculadora está dividido por las secciones:</p>
+                                        <p>De preferencia seguir con el orden indicado</p>
+                                        <li><b>Costo primo</b></li>
+                                        <li><b>Costo de producción</b></li>
+                                        <li><b>Costos indirectos</b></li>
+                                        <li><b>Costos de distribución</b></li>
+                                        <li><b>Costo total de operación</b></li>
+                                        <li><b>Costo unitario de producción</b></li>
+
+                                        <br>
+                                        <br>
+
+                                        <p><b>*Costo primo</b></p>
+                                        <p>El costo primo se saca sumando la materia prima directa y la mano de obra directa
+                                            y despues el resultado aparecera abajo de la palabra <b>Resultado</b> y en costo
+                                            de producción
+                                        </p>
+
+                                        <br>
+                                        <br>
+
+                                        <p><b>*Costo de produccion</b></p>
+                                        <p>El coste de producción se obtiene con el costo primo (que ya se obtuvo antes), 
+                                        gastos generales de fabricación directos y costos directos. 
+                                        El resultado de costo de producción también aparecerá debajo de la palabra <b>Resultado</b>,
+                                         en <b>Costo total de operación</b> y <b>Costo unitario de producción</b></p>
+
+                                        <br>
+                                        <br>
+
+                                        <p><b>*Costos indirectos</b></p>
+                                        <p>Los costos indirectos se obtienen sumando la 
+                                            <b>Materia prima indirecta</b>, 
+                                            <b>Mano de obra indirecta</b> y 
+                                            <b>Gastos generales de fabricación indirecta</b>
+                                            . El resultado aparecerá debajo de la palabra <b>Resultado</b>.</p>
+                                    
+                                        <br>
+                                        <br>
+                                        
+                                        <p><b>*Costos de distribución</b></p>
+                                        <p>El costo de distribución se obtiene sumando 
+                                            <b>Gastos de venta</b> y 
+                                            <b>Gastos de administración</b>. 
+                                            El resultado se mostrará debajo de la palabra 
+                                            <b>Resultado</b> y también aparecerá en 
+                                            <b>costo total de operación</b>.</p>
+
+                                        <br>
+                                        <br>
+
+                                        <p><b>*Costo total de operación</b></p>
+                                        <p>El costo total de operación se obtiene sumando 
+                                            <b>Coste de producción</b> (ya obtenido antes) y
+                                            <b>Coste de distribución</b>. 
+                                            El resultado aparecerá debajo de la palabra 
+                                            <b>Resultado</b>.</p>
+
+                                        <br>
+                                        <br>
+
+                                        <p><b>*Costo unitario de producción</b></p>
+                                        <p>El costo unitario de producción se obtiene dividiendo el 
+                                            <b>Costos de producción y 
+                                            <b>Unidades producidas</b>. 
+                                            El resultado aparecerá debajo de la palabra 
+                                            <b>Resultado</b>.</p>
+                                    </div>
+                                </div>
+                            </section>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+              <script type="text/javascript">
+                    window.onload = function()
+                    {
+                        var contenido = document.getElementById('Ccarga');
+            
+                        contenido.style.visibility = 'hidden';
+                        contenido.style.opacity = '0';
+                    }
+                </script>
+</body>
+</html>

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Accounting | Welcome</title>
+
+    <script src="js/costop.js" language="javascript" type="text/javascript"></script>
+    <script src="js/ctdo.js" language="javascript" type="text/javascript"></script>   
+    <script src="js/costodp.js" language="javascript" type="text/javascript"></script>
+    <script src="js/costosid.js" language="javascript" type="text/javascript"></script>
+    <script src="js/costosddistibucion.js" language="javascript" type="text/javascript"></script>
+    <script src="js/costounitariodp.js" language="javascript" type="text/javascript"></script>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js'></script>
+    <script src="js/main.js" language="javascript" type="text/javascript"></script>
+    <script src="js/index.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/estilodiya.css">
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" type="text/css" href="css/precarga.css">
+    <link rel="stylesheet" type="text/css" href="css/EcajasDT.css">
+    <link rel="stylesheet" type="text/css" href="css/estilod_menu.css">
+    <link rel="stylesheet" href="css/estilop.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="content-all">
+            <input type="checkbox" id="check">
+            <label for="check" class="icon"></label>
+            <br><br>
+            <nav class="menu">
+                <ul>
+                    <a href="index_us.html"><li>Initiation</li></a>
+                    <a href="configuracion_us.html"><li>Configuration</li></a>
+                    <a href="Teoria_us.html"><li>Theory</li></a>
+                    <a href="Terminosycondiciones_us.html"><li>Terms and Conditions</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+        <section class="thowheader">
+
+            <div id="Ccarga">
+                <div class="carga">
+                    <img class="imagen" src="imgpcarga/calculadora.png">
+                </div>
+            </div>
+        
+        </section>
+        
+    <section class="section">
+        <div class="wrap">
+            <ul class="tabs">
+                <li><a href="#tab1"><span class="tab-text">FIRST COST</span></a></li>
+                <li><a href="#tab2"><span class="tab-text">PRODUCTION COST</span></a></li>
+                <li><a href="#tab3"><span class="tab-text">INDIRECT COSTS</span></a></li>
+            </ul>
+        </div>
+
+        <div class="wrap2">
+            <ul class="tabs">
+                <li><a href="#tab4"><span class="tab-text">COST OF DISTRIBUTION</span></a></li>
+                <li><a href="#tab5"><span class="tab-text">TOTAL COST OF OPERATION</span></a></li>
+                <li><a href="#tab6"><span class="tab-text">Unit cost of production</span></a></li>
+            </ul>
+        </div>
+
+        <div class="secciones">
+
+            <form class="btn" action="" method="POST">
+
+            <div class="alinearcp">
+
+                <article id="tab1">
+
+                        <p><b>PRIMO COST</b></p>
+
+                        <div class="form">
+                            <input type="text" name="name" autocomplete="off" required=""id="mpd"onclick="costop()" autofocus="">
+                            <label for="name" class="label-name">
+                                <span class="content-name">Direct raw material</span>
+                            </label>
+                        </div>
+
+
+                        <div class="form">
+                            <input type="text" id="mod" name="name" autocomplete="off" required=""onclick="costop()">
+                            <label for="name" class="label-name">
+                                <span class="content-name">Direct labor</span>
+                            </label>
+                        </div>
+
+                        <br>
+
+                        <div class="boton">
+                            <input type="button" value="ready" onclick="costop()">
+                        </div>
+
+                        <span class="etqres">Resultado</span>
+                        <div class="ipr">
+                            <input type="text" id="cpro2">
+                        </div>
+
+                            <input type="checkbox" id="ch">
+                            <label for="ch" class="lbl_ch">
+                                <img src="img/signodp.png" width="90%" height="80%" class="imgp">
+                            </label>
+                        <div class="manual">
+                                <p><b>*Cousin cost</b></p>
+                                <p>The prime cost is obtained by 
+                                    adding direct raw material and direct 
+                                    labor and then the result will appear below
+                                     the word <b>Result</b> and in <b>Production cost</b>.
+                                </p>
+                        </div>
+                </article>
+
+            </div>
+
+
+
+
+            <div class="alinarcosp">
+
+                <article id="tab2">
+
+                    <p><b>Production cost</b></p>
+
+                    <div class="form">
+                        <input type="text" name="name" autocomplete="off" required="" id="cpro1">
+
+                        <label for="name" class="label-name">
+                            <span class="content-name">Primo Cost</span>
+                        </label>
+
+                    </div>
+
+
+                    <div class="form">
+                        <input type="text" id="ggdfd" name="name" autocomplete="off" required="">
+
+                        <label for="name" class="label-name">
+                            <span class="content-name">Direct overhead manufacturing costs</span>
+                        </label>
+
+                    </div>
+
+
+                    <div class="form">
+                        <input type="text" name="name" id="cdirec" autocomplete="off" required="">
+                        <label for="name" class="label-name">
+                            <span class="content-name">Direct costs</span>
+                        </label>
+                    </div>
+
+
+                    <br>
+
+                    <div class="boton">
+                        <input type="button" value="ready" onclick="costodp()">
+                    </div>
+
+                    <span class="etqres">Resultado</span>
+
+                    <div class="ipr">
+                        <input type="text" id="rescospro3">
+                    </div>
+
+                            <input type="checkbox" id="ch2">
+                            <label for="ch2" class="lbl_ch">
+                                <img src="img/signodp.png" width="90%" height="80%" class="imgp">
+                            </label>
+                    <div class="manual">
+                            <p><b>*Production cost</b></p>
+                            <p>The production cost is obtained with the prime cost 
+                            (which was obtained before), direct manufacturing overhead and direct costs.
+                             The result of production cost will also appear under the word <b>Result</b>,
+                             in <b>Total cost of operation</b> and <b>Unit cost of production</b></p>
+                    </div>
+                </article>
+
+            </div>
+
+
+
+
+            <div class="alinearci">
+
+                <article id="tab3">
+
+                    <p class="encabezadodp"><b>Indirect costs</b></p>
+
+                    <div class="form">
+                        <input type="text" id="mpi" name="name" autocomplete="off" required="">
+                        <label for="name" class="label-name">
+                            <span class="content-name">Indirect raw material</span>
+                        </label>
+                    </div>
+
+                    <div class="form">
+                        <input type="text" id="moi" name="name" autocomplete="off" required="">
+                        <label for="name" class="label-name">
+                            <span class="content-name">Indirect labor</span>
+                        </label>
+                    </div>
+
+                    <div class="form">
+                        <input type="text" id="ggdfi" name="name" autocomplete="off" required="">
+                        <label for="name" class="label-name">
+                            <span class="content-name">Indirect manufacturing overhead</span>
+                        </label>
+                    </div>
+
+                    <div class="boton">
+                        <input type="button" value="ready" onclick="costoind()">
+                    </div>
+
+                    <span class="etqres">Resultado</span>
+
+                    <div class="ipr">
+                        <input type="text" id="costoidtos">
+                    </div>
+                            <input type="checkbox" id="ch3">
+                            <label for="ch3" class="lbl_ch">
+                                <img src="img/signodp.png" width="90%" height="80%" class="imgp">
+                            </label>
+                    <div class="manual">
+                            <p><b>*Indirect costs</b></p>
+                            <p>Indirect costs are obtained by adding 
+                                <b>Indirect Raw Material</b>, 
+                                <b>Indirect Labor</b> y 
+                                <b>Indirect Manufacturing General Expenses</b>
+                                . The result will appear below the word <b>Result</b>.</p>
+                    </div>
+                </article>
+
+            </div>
+
+
+
+
+
+            <div class="alinearcd">
+
+                <article id="tab4">
+
+                    <p class="encabezadodp"><b>Cost of distribution</b></p>
+
+                    <div class="form">
+                        <input type="text" name="name" id="gv" autocomplete="off" required="">
+
+                        <label for="name" class="label-name">
+                            <span class="content-name">Selling expenses</span>
+                        </label>
+                    </div>
+
+                    <div class="form">
+                        <input type="text" name="name" id="gda" autocomplete="off" required="">
+                        <label for="name" class="label-name">
+                            <span class="content-name">Administration expenses</span>
+                        </label>
+                    </div>
+
+                    <br>
+
+                    <div class="boton">
+                        <input type="button" value="ready" onclick="costodd()">
+                    </div>
+
+                    <span class="etqres">Resultado</span>
+
+                    <div class="ipr">
+                        <input type="text" id="rescd2">
+                    </div>
+                            <input type="checkbox" id="ch4">
+                            <label for="ch4" class="lbl_ch">
+                                <img src="img/signodp.png" width="90%" height="80%" class="imgp">
+                            </label>
+                    <div class="manual">
+                            <p><b>*Distribution costs</b></p>
+                            <p>The distribution cost is obtained by adding 
+                                <b>Sales Expenses</b> and 
+                                <b>Administration Expenses</b>. 
+                                The result will be displayed under the word 
+                                <b>Result</b> and will also appear in 
+                                <b>Total operation cost</b>.</p>
+                    </div>
+
+                </article>
+
+            </div>
+
+
+
+
+
+            <div class="alinearcto">
+
+            <article id="tab5">
+
+                <p class="encabezadodp"><b>Total cost of operation</b></p>
+
+                <div class="form">
+                    <input type="text" name="name" id="rescospro1" autocomplete="off" required="">
+                    <label for="name" class="label-name">
+                        <span class="content-name">Production cost</span>
+                    </label>
+                </div>
+
+                <div class="form">
+                    <input type="text" name="name" id="rescd1" autocomplete="off" required="">
+                    <label for="name" class="label-name">
+                        <span class="content-name">Distribution cost</span>
+                    </label>
+                </div>
+
+                <br>
+
+                <div class="boton">
+                    <input type="button" value="Listo" onclick="costoopera()">
+                </div>
+
+                <span class="etqres">Resultado</span>
+
+                <div class="ipr">
+                    <input type="text" id="rescostp">
+                </div>
+                            <input type="checkbox" id="ch5">
+                            <label for="ch5" class="lbl_ch">
+                                <img src="img/signodp.png" width="90%" height="80%" class="imgp">
+                            </label>
+                <div class="manual">
+                        <p><b>*Total cost of operation</b></p>
+                        <p>The total cost of operation is obtained by adding 
+                            <b>Production cost</b> (already obtained before) and
+                            <b>Distribution cost</b>. 
+                            The result will appear below the word 
+                            <b>Result</b>.</p>
+                </div>
+            <article>
+
+
+            </div>
+
+
+
+
+            <div class="alinearcup">
+
+            <article id="tab6">
+
+                <p class="encabezadodp"><b>Unit cost of production</b></p>
+
+                <div class="form">
+                    <input type="text" id="rescospro2" name="name" autocomplete="off" required="">
+                    <label for="name" class="label-name">
+                        <span class="content-name">Production costs</span>
+                    </label>
+                </div>
+
+                <div class="form">
+                    <input type="text" id="up" name="name" autocomplete="off" required="">
+                    <label for="name" class="label-name">
+                        <span class="content-name">Units produced</span>
+                    </label>
+                </div>
+
+                <div class="boton">
+                    <input type="button" value="ready" onclick="costoup()">
+                </div>
+
+                <span class="etqres">Resultado</span>
+
+                <div class="ipr">
+                    <input type="text" id="cupro">
+                </div>
+                            <input type="checkbox" id="ch6">
+                            <label for="ch6" class="lbl_ch">
+                                <img src="img/signodp.png" width="90%" height="80%" class="imgp">
+                            </label>
+                <div class="manual">
+                        <p><b>*Unit cost of production</b></p>
+                        <p>The unit cost of production is obtained by dividing the 
+                            <b>Production Costs</b> y 
+                            <b>Production Costs</b>. 
+                            The result will appear below the word 
+                            <b>Result</b>.</p>
+                </div>
+            </article>
+
+            </div>
+            </form>
+        </div>
+
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <script type="text/javascript">
+        window.onload = function()
+        {
+            var contenido = document.getElementById('Ccarga');
+
+            contenido.style.visibility = 'hidden';
+            contenido.style.opacity = '0';
+        }
+    </script>
+
+</body>
+    
+</html>

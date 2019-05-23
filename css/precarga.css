@@ -1,0 +1,74 @@
+
+#Ccarga
+{
+	/*background: rgba(81,88,89,.10);*/
+	background: rgba(37,38,39,.5);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	transition: all 1s ease;
+	z-index: 10;
+}
+.carga
+{
+	border: 15px solid #ccc;
+	border-top-color: #3B3F40;
+	border-top-style: groove;
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+
+	animation: girar 2s linear infinite;
+
+	-webkit-animation: girar 2s linear infinite;
+}
+.imagen
+{
+	height: 130px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+ul
+{
+	margin: 0;
+	padding: 0;
+}
+.header
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: black;
+	color: #fff;
+}
+@keyframes girar
+{
+	from
+	{
+		transform: rotate(0deg);
+	}
+	to
+	{
+		transform: rotate(360deg);
+	}
+
+	from
+	{
+		-webkit-transform: rotate(0deg);
+	}
+	to
+	{
+		-webkit-transform: rotate(360deg);
+	}
+}

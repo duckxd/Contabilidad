@@ -1,0 +1,297 @@
+.alinarcosp
+{
+    position: absolute;
+    width: 83%;
+    height: 350px;
+    margin-left: 3em;
+    /*left: 35%;*/
+
+}
+.alinearcp
+{
+    position: absolute;
+    width: 83%;
+    height: 250px;
+    margin-left: 3em;
+    /*left: 10%;*/
+}
+.alinearci
+{
+	position: absolute;
+    width: 83%;
+    height: 350px;
+    margin-left: 3em;
+    /*left: 60%;*/
+}
+.alinearcd
+{
+	position: absolute;
+    width: 83%;
+    height: 270px;
+    margin-left: 3em;
+    /*left: 35%;*/
+    /*top: 68%;*/
+}
+.alinearcto
+{
+	position: absolute;
+    width: 83%;
+    height: 270px;
+    margin-left: 3em;
+    /*left: 60%;*/
+    /*top: 68%;*/
+}
+.alinearcup
+{
+	position: absolute;
+    width: 83%;
+    height: 270px;
+    margin-left: 3em;
+    /*left: 10%;*/
+    /*top: 68%;*/
+}
+
+@media screen and (max-width: 880px)
+{
+    .alinearcp
+    {
+        position: absolute;
+        width: 89%;
+        height: 250px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+    .alinarcosp
+    {
+        position: absolute;
+        width: 89%;
+        height: 350px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+
+    .alinearci
+    {
+        position: absolute;
+        width: 89%;
+        height: 350px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+    .alinearcd
+    {
+        position: absolute;
+        width: 89%;
+        height: 270px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+
+    .alinearcto
+    {
+        position: absolute;
+        width: 89%;
+        height: 270px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+
+    .alinearcup
+    {
+        position: absolute;
+        width: 89%;
+        height: 270px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    .alinearcp
+    {
+        position: absolute;
+        width: 85%;
+        height: 250px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+    .alinarcosp
+    {
+        position: absolute;
+        width: 85%;
+        height: 350px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+
+    .alinearci
+    {
+        position: absolute;
+        width: 85%;
+        height: 350px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+    .alinearcd
+    {
+        position: absolute;
+        width: 85%;
+        height: 270px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+
+    .alinearcto
+    {
+        position: absolute;
+        width: 85%;
+        height: 270px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+
+    .alinearcup
+    {
+        position: absolute;
+        width: 85%;
+        height: 270px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+
+}
+
+@media screen and (max-width: 450px)
+{
+        .alinearcp
+    {
+        position: absolute;
+        width: 77%;
+        height: 250px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+    .alinarcosp
+    {
+        position: absolute;
+        width: 77%;
+        height: 350px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+
+    .alinearci
+    {
+        position: absolute;
+        width: 77%;
+        height: 350px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+    .alinearcd
+    {
+        position: absolute;
+        width: 77%;
+        height: 270px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+
+    .alinearcto
+    {
+        position: absolute;
+        width: 77%;
+        height: 270px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+
+    .alinearcup
+    {
+        position: absolute;
+        width: 77%;
+        height: 270px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+}
+
+@media screen and (max-width: 330px)
+{
+    .alinearcp
+    {
+        position: absolute;
+        width: 70%;
+        height: 250px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+    .alinarcosp
+    {
+        position: absolute;
+        width: 70%;
+        height: 350px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+
+    .alinearci
+    {
+        position: absolute;
+        width: 70%;
+        height: 350px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+    .alinearcd
+    {
+        position: absolute;
+        width: 70%;
+        height: 270px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+
+    .alinearcto
+    {
+        position: absolute;
+        width: 70%;
+        height: 270px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+
+    .alinearcup
+    {
+        position: absolute;
+        width: 70%;
+        height: 270px;
+        margin-left: 3em;
+        left: 0;
+        margin-right: 3em;
+    }
+}

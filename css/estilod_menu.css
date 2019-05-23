@@ -1,0 +1,58 @@
+.icon
+{
+    position: absolute;
+    background: url(../iconos/Menub.png);
+    background-repeat: no-repeat;
+    padding: 15px;
+    align-items: center;
+}
+.content-all{
+	width: 100%;
+	max-width: 1000px;
+	margin-top: 14px;
+}
+.content-all label{
+	position: fixed;
+	width: 100%;
+	max-width: 1000px;
+	top: 8px;
+	left: 23px;
+	font-size: 16px;
+	color: #fff;
+}
+#check{
+	display: none;
+}
+#check:checked ~ .menu{
+	width: 200px;
+}
+.menu{
+	position: fixed;
+	top: 44px;
+	width: 0px;
+	height: 100vh;
+	background: #3B3F40;
+	transition: all 500ms cubic-bezier(1,0,0,1);
+
+	transition-timing-function: cubic-bezier(1,0,0,3);
+	overflow: hidden;
+}
+.menu li{
+    list-style: none;
+    padding: 20px;
+    cursor: pointer;
+    display: block;
+    width: 160px;
+}
+.menu a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+
+
+
+
+

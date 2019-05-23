@@ -1,0 +1,175 @@
+.articulos
+{
+    margin: auto 12px;
+    padding: 5px;
+}
+.articulos p
+{
+    text-align: justify;
+    margin-top: 0px;
+}
+.articulos h1 
+{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.titulo
+{
+    font-size: 20px;
+    margin-top: 0;
+    padding: 10px;
+    background: #4E4F4F;
+    color: #fff;
+    padding-left: 21px;
+}
+.imglogo
+{
+    position: absolute;
+    right: 0;
+    top: -2px;
+}
+.segundoheader
+{
+    position: relative;
+    height: 43px;
+    margin-bottom: 12px;
+}
+.wrap
+{
+    position: relative;
+    width: 100%;
+    min-width: 90%;
+}
+
+.wrap2
+{
+    position: relative;
+    width: 100%;
+    min-width: 90%;
+}
+
+ul.tabs
+{
+    width: 100%;
+    list-style: none;
+    background: #3B3F40;
+    display: flex;
+}
+
+ul.tabs li
+{
+    margin-left: 0px;
+    width: 50%;
+    /*padding-left: 50px;*/
+    overflow: hidden;
+    border-bottom: 1px solid #2EF4F4;
+}
+
+
+ul.tabs li a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+
+    display: block;
+    padding: 20px 10px;
+    padding-right: 10px;
+}
+
+ul.tabs li a .tab-text
+{
+    margin-left: 8px;
+}
+.active
+{
+    background: #27E0E0;
+    height: 41%;
+}
+.secciones
+{
+    width: 100%;
+}
+body
+{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    position: fixed;
+    background: #3B3F40;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 0;
+    min-height: 45px;
+    z-index: 90;
+    max-height: 45px;
+    border-bottom: 1px solid #2EF4F4;
+}
+
+.section
+{
+    position: relative;
+    width: 100%;
+}
+
+.thowheader
+{
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 45px;
+}
+.imagenm
+{
+    float: left;
+    margin: 12px;
+    margin-right: 100%;
+}
+
+@media screen and (max-width: 450px)
+{
+    ul.tabs li
+    {
+        margin-left: 0px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 330px)
+{
+    ul.tabs li
+    {
+        margin-left: 0px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    body
+    {
+        font-family: arial;
+        margin: 0;
+        padding: 0;
+        min-width: 100%;
+    }
+
+    ul.tabs li a
+    {
+        color: #fff;
+        text-decoration: none;
+        font-size: 12px;
+        text-align: center;
+
+        display: block;
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 8px;
+    }
+
+}

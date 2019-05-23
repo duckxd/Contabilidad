@@ -1,0 +1,366 @@
+body
+{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    position: fixed;
+    background: #3B3F40;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 0;
+    min-height: 45px;
+    z-index: 90;
+    max-height: 45px;
+    border-bottom: 1px solid #2EF4F4;
+}
+form
+{
+    width: 100%
+}
+
+.btn input[type = "button"]
+{
+    width: 150px;
+    height: 30px;
+    background-color: #0d0000;
+    border: 0;
+    color: #fff;
+}
+
+.section
+{
+    position: relative;
+    width: 100%;
+}
+
+.flex
+{
+    position: fixed;
+    top: 5%;
+    right:0;
+}
+.thowheader
+{
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 45px;
+}
+p
+{
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.boton
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 9;
+}
+
+.wrap
+{
+    position: relative;
+    width: 100%;
+    min-width: 90%;
+}
+.wrap2
+{
+    position: relative;
+    width: 100%;
+    min-width: 90%;
+}
+
+ul.tabs
+{
+    width: 100%;
+    list-style: none;
+    background: #363636;
+    display: flex;
+}
+
+ul.tabs li
+{
+    margin-left: 0px;
+    width: 34%;
+    /*padding-left: 50px;*/
+    overflow: hidden;
+    border-bottom: 1px solid #2EF4F4;
+}
+
+
+ul.tabs li a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+
+    display: block;
+    padding: 20px 10px;
+    padding-right: 10px;
+}
+
+ul.tabs li a .tab-text
+{
+    margin-left: 0px;
+}
+.active
+{
+    background: #27E0E0;
+    height: 41%;
+}
+.secciones
+{
+    width: 50%;
+    min-width: 90%;
+    margin: 60px auto;
+}
+.footer
+{
+    position: relative;
+    bottom: 0;
+}
+.ipr
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#cpro2
+{
+    border: none;
+}
+.etqres
+{
+    position: absolute;
+    right: 13%;
+    bottom: 20px;
+}
+#rescospro3
+{
+    border: none;
+}
+#rescd2
+{
+    border: none;
+}
+#rescostp
+{
+    border: none;
+}
+#costoidtos
+{
+    border: none;
+}
+#cupro
+{
+    border: none;
+}
+article
+{
+    width: 100%;
+    height: 150%;
+}
+.manual
+{
+    position: relative;
+    width: 77%;
+    height: 0px;
+    margin-right: 3em;
+    bottom: -25%;
+    overflow: hidden;
+    transition: .5s;
+}
+.lbl_ch
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    bottom: -26%;
+    left: 0%;
+    box-shadow: 0px 2px 20px 0px black;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    font-size: 45px;
+    overflow: hidden;
+}
+.imgp
+{
+    position: absolute;
+    top: 5%;
+}
+#ch
+{
+    display: none;
+}
+#ch:checked ~ .manual
+{
+    height: 200px;
+}
+
+#ch2
+{
+    display: none;
+}
+#ch2:checked ~ .manual
+{
+    height: 200px;
+}
+
+#ch3
+{
+    display: none;
+}
+#ch3:checked ~ .manual
+{
+    height: 200px;
+    bottom: -30%;
+}
+
+#ch4
+{
+    display: none;
+}
+#ch4:checked ~ .manual
+{
+    height: 200px;
+    bottom: -30%;
+}
+#ch5
+{
+    display: none;
+}
+#ch5:checked ~ .manual
+{
+    height: 200px;
+    bottom: -30%;
+}
+
+#ch6
+{
+    display: none;
+}
+#ch6:checked ~ .manual
+{
+    height: 200px;
+    bottom: -40%;
+}
+@media screen and (max-width: 450px)
+{
+    ul.tabs li
+    {
+        margin-left: 0px;
+    }
+    ul.tabs
+    {
+        width: 100%;
+        list-style: none;
+        background: #363636;
+        display: flex;
+        height: 47px;
+        overflow: hidden;
+    }
+    .btn input[type = "button"]
+    {
+        width: 70px;
+        height: 30px;
+        background-color: #0d0000;
+        border: 0;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 330px)
+{
+    ul.tabs li
+    {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    body
+    {
+        font-family: arial;
+        margin: 0;
+        padding: 0;
+        min-width: 100%;
+    }
+ul.tabs li a .tab-text
+{
+    margin-left: 0px;
+    position: absolute;
+    left: 6%;
+    top: 30%;
+    right: 6%;
+}
+    ul.tabs li a
+    {
+        color: #fff;
+        text-decoration: none;
+        font-size: 12px;
+        text-align: center;
+
+        display: block;
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 8px;
+        height: 7px;
+        position: relative;
+    }
+#costoidtos
+{
+    border: none;
+    width: 200px;
+    text-align: center;
+}
+#cupro
+{
+    border: none;
+    width: 200px;
+    text-align: center;
+}
+#cpro2
+{
+    border: none;
+    width: 200px;
+    text-align: center;
+}
+#rescospro3
+{
+    border: none;
+    width: 200px;
+    text-align: center;
+}
+#rescd2
+{
+    border: none;
+    width: 200px;
+    text-align: center;
+}
+#rescostp
+{
+    border: none;
+    width: 200px;
+    text-align: center;
+}
+.etqres
+{
+    position: absolute;
+    right: 10.5%;
+    bottom: 20px;
+}
+
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Configuracion</title>
+
+    <link rel="stylesheet" type="text/css" href="css/precarga.css">
+    <link rel="stylesheet" type="text/css" href="css/estilod_menu.css">
+    <link rel="stylesheet" href="css/estilodconf.css">
+</head>
+<body>
+        <header>
+                <div class="content-all">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="icon"></label>
+                    <br><br>
+                    <nav class="menu">
+                        <ul>
+                            <a href="index.html"><li>Inicio</li></a>
+                            <a href="calculadora.html"><li>Calculadora</li></a>
+                            <a href="Teoria.html"><li>Teoría</li></a>
+                            <a href="Terminosycondiciones.html"><li>Términos y condiciones</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <section class="thowheader">
+                <div id="Ccarga">
+                    <div class="carga">
+                        <img class="imagen" src="imgpcarga/calculadora.png">
+                    </div>
+                </div>
+            </section>
+
+            <div class="idiomas">
+                <p1>Español</p1>
+                <input type="checkbox" id="checkid">
+                <label for="checkid" class="label"></label>
+                <br><br>
+                <p2>Ingles</p2>
+                <input type="checkbox" id="checkid2" onClick="window.location='configuracion_us.html'">
+                <label for="checkid2" class="label2"></label>
+            </div>
+
+
+        <script type="text/javascript">
+            window.onload = function()
+            {
+                var contenido = document.getElementById('Ccarga');
+    
+                contenido.style.visibility = 'hidden';
+                contenido.style.opacity = '0';
+            }
+        </script>
+</body>
+</html>

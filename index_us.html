@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Initiation | Welcome</title>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js'></script>
+    <script src="js/main.js" language="javascript" type="text/javascript"></script>
+    <script src="js/index.js"></script>
+    <script src="js/cerrarmdl.js" language="javascript" type="text/javascript"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="css/precarga.css">
+    <link rel="stylesheet" type="text/css" href="css/estilod_menu.css">
+    <link rel="stylesheet" href="css/estilodindexart.css">
+
+</head>
+<body>
+        <header>
+                <div class="content-all">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="icon"></label>
+                    <br><br>
+                    <nav class="menu">
+                        <ul>
+                            <a href="index_us.html"><li>Initiation</li></a>
+                            <a href="configuracion_us.html"><li>Configuration</li></a>
+                            <a href="calculadora_us.html"><li>Calculator</li></a>
+                            <a href="Teoria_us.html"><li>Theory</li></a>
+                            <a href="Terminosycondiciones_us.html"><li>Terms and Conditions</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        
+                <section class="thowheader">
+        
+                    <div id="Ccarga">
+                        <div class="carga">
+                            <img class="imagen" src="imgpcarga/calculadora.png">
+                        </div>
+                    </div>
+                </section>
+
+        <section class="section">
+            <div class="wrap">
+                <ul class="tabs">
+                        <li><a href="#tab1"><span class="tab-text">Welcome</span></a></li>
+                        <li><a href="#tab2"><span class="tab-text">Manual</span></a></li>
+                </ul>
+            </div>
+
+            <div class="secciones">
+
+                    <form class="btn" action="" method="POST">
+        
+                    <div class="alinearcp">
+        
+                        <article id="tab1">
+                                <div class="segundoheader">
+                                        <h1 class="titulo">Welcome</h1>
+                                        <img class="imglogo" src="imgpcarga/logo.png" width="100px" onClick="window.location='calculadora_us.html'">
+                                    </div>
+                                    <section class="articulos">
+                                        
+                                            <div>
+                                                <p>This tool will help you make it easier to solve the sums and
+                                                division presented, forget confuse and stress, the program asks 
+                                                for the data in an orderly manner so that you only take a second to change the tab.</p>
+                                            </div>
+                                        
+                                    </section>
+                        </article>
+                    </div>
+        
+                    <div class="alinarcosp">
+        
+                        <article id="tab2">
+                            <section class="articulos">
+                                <div>
+                                    <h1>Calculator</h1>
+                                    <div>
+                                        <p>The calculator menu is divided by the sections:</p>
+                                        <li><b>Cousin cost</b></li>
+                                        <li><b>Production cost</b></li>
+                                        <li><b>Indirect costs</b></li>
+                                        <li><b>Cost of distribution</b></li>
+                                        <li><b>Total cost of operation</b></li>
+                                        <li><b>Unit cost of production</b></li>
+                                        
+
+                                        <br>
+                                        <br>
+
+                                        <p><b>*Cousin cost</b></p>
+                                        <p>The prime cost is obtained by 
+                                            adding direct raw material and direct 
+                                            labor and then the result will appear below
+                                             the word <b>Result</b> and in <b>Production cost</b>.
+                                        </p>
+
+                                        <br>
+                                        <br>
+
+                                        <p><b>*Production cost</b></p>
+                                        <p>The production cost is obtained with the prime cost 
+                                        (which was obtained before), direct manufacturing overhead and direct costs.
+                                         The result of production cost will also appear under the word <b>Result</b>,
+                                         in <b>Total cost of operation</b> and <b>Unit cost of production</b></p>
+
+                                        <br>
+                                        <br>
+
+                                        <p><b>*Indirect costs</b></p>
+                                        <p>Indirect costs are obtained by adding 
+                                            <b>Indirect Raw Material</b>, 
+                                            <b>Indirect Labor</b> y 
+                                            <b>Indirect Manufacturing General Expenses</b>
+                                            . The result will appear below the word <b>Result</b>.</p>
+                                    
+                                        <br>
+                                        <br>
+                                        
+                                        <p><b>*Distribution costs</b></p>
+                                        <p>The distribution cost is obtained by adding 
+                                            <b>Sales Expenses</b> and 
+                                            <b>Administration Expenses</b>. 
+                                            The result will be displayed under the word 
+                                            <b>Result</b> and will also appear in 
+                                            <b>Total operation cost</b>.</p>
+
+                                        <br>
+                                        <br>
+
+                                        <p><b>*Total cost of operation</b></p>
+                                        <p>The total cost of operation is obtained by adding 
+                                            <b>Production cost</b> (already obtained before) and
+                                            <b>Distribution cost</b>. 
+                                            The result will appear below the word 
+                                            <b>Result</b>.</p>
+
+                                        <br>
+                                        <br>
+
+                                        <p><b>*Unit cost of production</b></p>
+                                        <p>The unit cost of production is obtained by dividing the 
+                                            <b>Production Costs</b> y 
+                                            <b>Production Costs</b>. 
+                                            The result will appear below the word 
+                                            <b>Result</b>.</p>
+                                    </div>
+                                </div>
+                            </section>
+                        </article>
+                    </div>
+                </div>
+            </section>
+              <script type="text/javascript">
+                    window.onload = function()
+                    {
+                        var contenido = document.getElementById('Ccarga');
+            
+                        contenido.style.visibility = 'hidden';
+                        contenido.style.opacity = '0';
+                    }
+                </script>
+</body>
+</html>
